@@ -1,0 +1,54 @@
+<html>
+<head>
+<title>Ден на датум</title>
+<link rel="icon" href="img/icon.png">
+<link href='https://fonts.googleapis.com/css?family=Nunito' rel='stylesheet'>
+<link rel="stylesheet" href="css/tools/dateToDay.css">
+</head>
+
+<body background="img/background.jpg">
+<div id="main" align="center">
+<ul>
+	<li style="margin-left:10px"><a href="index.html">Почетна</a></li>
+	<li><a href="tools.html" class="here">Алати</a></li>
+	<li><a href="help.html">Помош</a></li>
+</ul>
+
+<br><br>
+<p align="left">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Овој алат користи 
+<a href="https://en.wikipedia.org/wiki/Doomsday_rule">математички алгоритам</a> 
+креиран од Џон Х. Конвер, кој од внесен датум може да го пресмета денот на тој датум.
+</p>
+
+<form name="INPUT">
+<input type="text" maxlength="2" size="2" name="day" placeholder="Ден">
+
+<select name="month">
+    	<option value="null">Месец</option>
+    	<option value="1">Јануари</option>
+    	<option value="2">Февруари</option>
+	<option value="3">Март</option>
+	<option value="4">Април</option>
+	<option value="5">Мај</option>
+	<option value="6">Јуни</option>
+	<option value="7">Јули</option>
+	<option value="8">Август</option>
+	<option value="9">Септември</option>
+	<option value="10">Октомври</option>
+	<option value="11">Ноември</option>
+	<option value="12">Декември</option>
+</select>
+
+<input type="text" maxlength="6" size="5" name="year"  placeholder="Година">
+
+<button type="button" onclick="Calculate()">Пресметај</button>
+</form>
+
+<p id="res">На тој датум се паѓа: <b></b></p>
+
+<script src="js/dateToDay.js"></script>
+</div>
+<footer>Изрботено од:<br>Вељко Аџиќ III6</footer>
+</body>
+</html>

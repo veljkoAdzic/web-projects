@@ -1,0 +1,92 @@
+div {
+	margin: 0;
+  	position: absolute;
+  	top: 50%;
+  	left: 50%;
+  	-ms-transform: translate(-50%, -50%);
+  	transform: translate(-50%, -50%);
+	padding: 10px 10px;
+	font-family: Arial;
+}
+
+button {
+	margin-top: 1%;
+	transition-duration: 0.4s;
+	padding: 15px 20px;
+	background-color: #008CBA;
+	color: white;
+	border: 2px solid #008CBA;
+	border-radius: 6px;
+	font-size: 20px;
+}
+
+button:hover {
+	
+	background-color: white;
+	color: black;
+	font-size: 22px;
+	border-radius: 10px;
+}
+
+#in {
+	padding: 10px 35px;
+	background-color: white;
+	border: 1px solid #DDD;
+	border-radius: 20px;
+}
+
+#res, #test {
+	display: none;
+}
+
+table {
+	margin: 5% auto;
+	border-collapse: collapse;
+}
+
+th {
+	width: 200px;
+	background-color: #008CBA;
+	color: white;
+}
+
+table,td,th {
+	align-content: center;
+	font-size: 25px;
+	padding: 5px;
+}
+
+tr:nth-child(odd){
+	background-color: #F8F8F8;
+}
+
+#counter {
+	/*position: absolute;
+	top: 10px;
+	right: 20px;*/
+}
+
+#timeDis {
+	color: #222;
+}
+
+#title {
+	font-size: 50px;
+}
+
+#StartBtn {
+	font-size: 30px;
+}
+
+#StartBtn:hover {
+	font-size: 32px;
+}
+
+#description {
+	font-size: 22px;
+	color: #333;
+}
+
+#res {
+	top: 60%;
+}

@@ -1,0 +1,109 @@
+body {
+	margin: 0;
+	color: white;
+	font-family: "Nunito";
+	background-attachment: fixed;
+	background-size: 110% auto;
+}
+
+#main {
+	background-color: #333;
+	margin-top: 13%;
+	padding-bottom: 20%;
+}
+
+/*Nav bar*/
+ul {
+  	list-style-type: none;
+  	margin: 0;
+  	padding: 0;
+  	overflow: hidden;
+  	background-color: #262626;
+}
+
+li {
+  	float: left;
+}
+
+li a {
+  	display: block;
+  	color: white;
+  	text-align: center;
+  	padding: 16px 18px;
+	font-size: 25px;
+	transition-duration: 0.4s;
+  	text-decoration: none;
+}
+
+li a:hover:not(.here) {
+  	background-color: #1C31A6;
+}
+
+#last {
+	float: right;
+	margin-right: 15px;
+}
+
+.here {
+	background-color: #8C6179;
+}
+/*~*/
+
+footer {
+	background-color: #0D1826;
+	padding: 25px 25px 45px 0;
+	text-align: right;
+	color: #F29E6D;
+}
+
+div p a {
+	color: #F29E6D;
+	text-decoration: none;
+}
+
+div p a:hover {
+	text-decoration: underline;
+}
+
+div p {
+	margin: 100px 300px 50px 100px;
+	font-size: 25px;
+}
+
+/*Form*/
+input,select {
+	background-color: #0D1826;
+	color: white;
+	border: none;
+	font-family: "Nunito";
+	font-size: 25px;
+	padding: 5px 10px;
+	margin: 0px 2.5%;
+	border-radius: 5px;
+}
+
+form button {
+	background-color: #0D1826;
+	color: white;
+	border: 5px solid #1C31A6;
+	font-family: "Nunito";
+	font-size: 27px;
+	padding: 10px 20px;
+	margin: 0px 2.5%;
+	border-radius: 5px;
+	transition-duration: 0.4s;
+}
+
+form button:hover {
+	font-size: 28px;
+	padding: 11px 21px;
+	margin: 0px (2.5% - 1px);
+	background-color: #1C31A6;
+	
+}
+/*~*/
+
+#res b {
+	color: #F29E6D;
+	font-size: 30px;
+}

@@ -1,0 +1,44 @@
+<html>
+<head>
+<title>Math Game</title>
+<link rel="icon" href="icon.svg">
+<link rel="stylesheet" href="style.css">
+<script src="code.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body align="center" bgcolor="#EEE" onload="NP()">
+<div id="startScreen">
+	<h1 id="title">Quick Maths Game</h1>
+	<p id="description">Answer 20 simple math questions as quickly as possible. Good luck!</p>
+	<button type="button" onclick="Start()" id="StartBtn">Start</button>
+</div>
+
+<div id="test">
+<h1 id="dis">-- --</h1>
+<form name="quiz">
+<input type="text" name="ans" id="in" autocomplete="off"><br>
+<button type="button" onclick="NP()" id="btn">Next Problem</button>
+</form>
+
+<p id="timer">00:00</p>
+<p id="counter">--/--</p>
+</div>
+
+<div id="res">
+<h1 id="scoreDis">Your score is : --/--</h1>
+<h3 id="timeDis">Your time is : --:--</h3>
+
+<button type="button" onclick="location.reload();">Try Again</button>
+
+<table id="tab">
+<tr>
+	<th>Question</th>
+	<th>Result</th>
+	<th>Your Answer</th>
+</tr>
+
+</table>
+</div>
+</body>
+</html>
