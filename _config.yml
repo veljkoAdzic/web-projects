@@ -1,0 +1,10 @@
+remote_theme: itstorque/jekyll-shell-theme
+
+title_from_headings:
+  enabled: false
+  strip_title: true
+  collections: false
+
+plugins:
+  - jekyll-remote-theme
+  - jekyll-titles-from-headings
